@@ -9,7 +9,7 @@ Plugins.oneclickpocket = {
 			Notify.progress("Saving to Pocket…", true);
 			xhrPost("backend.php",
 			{
-				op: "pluginhandler",
+				op: "PluginHandler",
 				plugin: "oneclickpocket",
 				method: "getInfo",
 				id: encodeURIComponent(id)
